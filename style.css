@@ -1,9 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*width: 100vw;*/
     font-family: 'Raleway', sans-serif;
 
 }
 
+a {
+    text-decoration: none;
+}
 
 header {
     width: 100%;
@@ -23,7 +30,7 @@ ul {
     display: flex;
 }
 
-ul a {
+.intro {
     display: block;
     text-decoration: none;
     padding: 0 1.5rem;
@@ -36,7 +43,7 @@ a:link, a:visited, a:hover, a:active {
     color: #f0f0f0;
 }
 
-a:hover {
+.intro:hover {
     background-color: #45567d;
 }
 
@@ -83,7 +90,7 @@ main {
     line-height: 4rem;
 }
 
-span {
+#work_header > span {
     padding-bottom: 5px;
     border-bottom: 2px solid #f0f0f0;
 }
@@ -121,4 +128,49 @@ span {
     object-fit: cover;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #303841;
+    color: #f0f0f0;
+    font-size: 3rem;
+    align-items: center;
+    padding: 8rem 1rem;
+    /*border-bottom: 5px solid #be3144;*/
+}
+
+#contact p {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#icons li {
+    padding: 1rem;
+}
+
+#contact i {
+    font-size: 1.5rem;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact span {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+    padding: 1rem;
+    color: #ff7f50;
+}
+
+
+#work > a:hover .hidden{
+    opacity: 1;
+}
 

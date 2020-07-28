@@ -6,14 +6,15 @@
     <title>Nathan's Portfolio</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/72ceec516d.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
     <header>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="intro" href="#about">About</a></li>
+        <li><a class="intro" href="#work_header">Work</a></li>
+        <li><a class="intro" href="#contact">Contact</a></li>
       </ul>
     </header>
     <main>
@@ -24,45 +25,43 @@
       <section>
         <h1 id="work_header"><span>Here are some of my works</span></h1>
         <section id="work">
-          <a>
+          <a href="https://sihoonathan.github.io/calculator/" target="_blank">
             <img id="calc" class="project-img" src="calc.png"/>
-            <p>Calculator</p>
+            <p><span class="hidden"><</span>Calculator<span class="hidden">/></span></p>
           </a>
-          <a>
+          <a href="https://sihoonathan.github.io/product_landing_page/" target="_blank">
             <img class="project-img" src="landing.png">
-            <p>Product Landing Page</p>
-    
+            <p><span class="hidden"><</span>Product Landing Page<span class="hidden">/></span></p>
           </a>
-          <a>
+          <a href="https://sihoonathan.github.io/etch-a-sketch/" target="_blank">
             <img class="project-img" src="etch.png">
-            <p>Etch-A-Sketch</p>
+            <p><span class="hidden"><</span>Etch-A-Sketch<span class="hidden">/></span></p>
           </a>
-          <a>
+          <a href="https://sihoonathan.github.io/rock-paper-scissors/" target="_blank">
             <img class="project-img" src="rock.png">
-            <p>Rock Paper Scissors</p>
+            <p><span class="hidden"><</span>Rock Paper Scissors<span class="hidden">/></span></p>
           </a>
-          <a>
+          <a href="https://sihoonathan.github.io/tribute-normal/" target="_blank">
             <img class="project-img" src="norman.png">
-            <p>Tribute Page</p>
+            <p><span class="hidden"><</span>Tribute Page<span class="hidden">/></span></p>
           </a>
-          <a>
+          <a href="https://sihoonathan.github.io/survey_form/" target="_blank">
             <img class="project-img" src="survey.png">
-            <p>Survey Form</p>
+            <p><span class="hidden"><</span>Survey Form<span class="hidden">/></span></p>
           </a>
         </section>
       </section>
-      
-      <section id="contact">
-        <p>Let's work together..</p>
-        <ul>
-          <li><img src="github.jpg">Github</li>
-          <li><img src="email.png">Send an email</li>
-        </ul>
-      </section>
     </main>
-    <footer>
-      © Created for freeCodeCamp
-    </footer>
+    <section id="contact">
+      <p>Let's work together..</p>
+      <div id="icons">
+        <ul>
+          <a href="https://github.com/sihoonathan" target="_blank"><li><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></li></button></a>
+          <li><i class="fas fa-at"></i><span>Send an email</span></li>
+          <li><i class="fa fa-file-text-o"></i><span>Résumé</span></li>
+        </ul>
+      </div>
+    </section>
     
   </body>
 
