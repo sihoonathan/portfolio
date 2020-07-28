@@ -128,6 +128,10 @@ main {
     object-fit: cover;
 }
 
+#contact ul {
+    padding-top: 4rem;
+}
+
 #contact {
     display: flex;
     flex-direction: column;
@@ -153,24 +157,35 @@ main {
     font-size: 1.5rem;
 }
 
-#contact a {
+.shift {
     text-decoration: none;
+    position: relative;
+    transition: all 0.3s;
+    top: 0px;
 }
 
+.shift:hover {
+    top: 10px;
+}
+/*#contact a:hover @keyframes shift {
+    0% {top: 0px;}
+    100% {top: 10px;}
+}*/
+
 #contact span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0.5rem;
 }
 
 .hidden {
     opacity: 0;
-    transition: all 2s;
+    transition: all 0.5s;
     padding: 1rem;
     color: #ff7f50;
 }
 
-
 #work > a:hover .hidden{
     opacity: 1;
 }
+
 
