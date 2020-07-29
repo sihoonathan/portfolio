@@ -188,4 +188,11 @@ main {
     opacity: 1;
 }
 
+@media (max-width: 550px) {
+    .shift li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
